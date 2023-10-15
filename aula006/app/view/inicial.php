@@ -20,7 +20,11 @@
     <header>
         <h1> REGISTRE <b>SUA VISITA</b> EM NOSSA SALA </h1>
     </header>
-    <img src="imagens/danger 2.png" >
+    <div class="danger">
+        <img src="imagens/danger 2.png" >
+        <img src="imagens/danger 2.png" >
+        <img src="imagens/danger 2.png" >
+    </div>
     <main>
         <form method="post" action="salvar">
             <label>
