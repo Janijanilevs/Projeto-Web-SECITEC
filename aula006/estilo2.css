@@ -9,17 +9,26 @@
 
 #mostra main{
     width: 100%;
-    min-height: 75vh;
+    min-height: 100vh;
     display: flex;
     padding-bottom: 40px;
 }
-.nome-lista{
+.titulo-lista h1{
     color: #ECBF15;
     text-align: center;
     font-family: Irish Grover;
-    font-size: 40px;
+    font-size: 80px;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 400;
+    line-height: normal;
+}
+.titulo-lista h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Irish Grover;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
 .part{
@@ -31,10 +40,16 @@
 }
 .mostrar-lista{
     background: #ECBF15;
-    width: 730px;
-    height: 400px;
-    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 670px;
+    height: 470px;
+    padding: 20px;
     border-radius: 13px;
+    overflow: auto;
+    font-size: 3vh;
+}
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
 }
 .mostrar-lista ul{
     list-style: none;
@@ -46,9 +61,8 @@
     align-items: center;
 }
 .cena-de-crime{
-    width: 480px;
-    height: 550px;
-    padding: 40px;
+    width: 600px;
+    height: 800px;
 }
 .cena-de-crime img{
     width: 100%;
@@ -60,5 +74,5 @@
 #mostra footer{
     background: #FFF;
     width: 100%;
-    min-height: 25vh;
+    min-height: 30vh;
 }
