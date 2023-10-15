@@ -17,40 +17,42 @@
     <title>Visitas - 2º Vespertino</title>
 </head>
 <body>
-    <header>
-        <h1> REGISTRE <b>SUA VISITA</b> EM NOSSA SALA </h1>
-    </header>
-    <div class="danger">
-        <img src="imagens/danger 2.png" >
-        <img src="imagens/danger 2.png" >
-        <img src="imagens/danger 2.png" >
-        <img src="imagens/danger 2.png" >
-        <img src="imagens/danger 2.png" >
-        <img src="imagens/danger 2.png" >
-        <img src="imagens/danger 2.png" >
-        <img src="imagens/danger 2.png" >
-        <img src="imagens/danger 2.png" >
-        <img src="imagens/danger 2.png" >
-        <img src="imagens/danger 2.png" >
-        <img src="imagens/danger 2.png" >
+    <div id="pagina">
+        <header>
+            <h1> REGISTRE <b>SUA VISITA</b> EM NOSSA SALA </h1>
+        </header>
+        <div class="danger">
+            <img src="imagens/danger 2.png" >
+            <img src="imagens/danger 2.png" >
+            <img src="imagens/danger 2.png" >
+            <img src="imagens/danger 2.png" >
+            <img src="imagens/danger 2.png" >
+            <img src="imagens/danger 2.png" >
+            <img src="imagens/danger 2.png" >
+            <img src="imagens/danger 2.png" >
+            <img src="imagens/danger 2.png" >
+            <img src="imagens/danger 2.png" >
+            <img src="imagens/danger 2.png" >
+            <img src="imagens/danger 2.png" >
+        </div>
+        <main>
+            <form method="post" action="salvar">
+                <label>
+                    NOME:
+                    <input type="text" name="nome">
+                </label>
+                <button>Confirmar Visita</button>
+            </form>
+        </main>
+        <footer>
+            <div>
+                <img href="imagens/placa.jpg">
+                <a href="/PROJETO-WEB-SECITEC/aula006/app/view/mostra.php"><img src=""><h2>ACESSE O <b>LIVRO</b> DE VISITAS</h2></a> 
+                <h3> <b>DOSCENTE:</b> THIAGO MIRANDA</h3>
+                <h3> 2° Ano <b>Vesp</b> INF</h3>
+                <img src="imagens/faixa-removebg-preview 1.png">
+            </div> 
+        </footer>
     </div>
-    <main>
-        <form method="post" action="salvar">
-            <label>
-                NOME:
-                <input type="text" name="nome">
-            </label>
-            <button>Confirmar Visita</button>
-        </form>
-    </main>
-    <footer>
-        <div>
-            <img href="imagens/placa.jpg">
-            <a href="/PROJETO-WEB-SECITEC/aula006/app/view/mostra.php"><img src=""><h2>ACESSE O <b>LIVRO</b> DE VISITAS</h2></a> 
-            <h3> <b>DOSCENTE:</b> THIAGO MIRANDA Vasco >>></h3>
-            <h3> 2° Ano <b>Vesp</b> INF</h3>
-            <img src="imagens/faixa-removebg-preview 1.png">
-        </div> 
-    </footer>
 </body>
 </html>
