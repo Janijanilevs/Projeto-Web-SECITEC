@@ -38,7 +38,7 @@ main{
 label{
     font-family: 'League Gothic';
     color: white;
-    font-size: 40px;
+    font-size: 6vh;
     justify-content: center;
     text-align: center;
 }
@@ -61,6 +61,7 @@ form input{
     border-radius: 10px;
     outline: unset;
     margin-bottom: 10px;
+    margin-left: 1vw;
 }
 form label{
     display: flex;

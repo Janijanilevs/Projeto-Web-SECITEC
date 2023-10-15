@@ -57,7 +57,7 @@
             </div>
             <div class="roda-2">
                 <h3 class="info-roda"> 2° Ano <b>Vesp</b> INF</h3>
-                <img src="imagens/faixa-removebg-preview 1.png">
+                <img src="imagens/faixa-removebg.png">
             </div> 
         </footer>
     </div>
