@@ -152,3 +152,13 @@ body .danger{
 body .danger img{
     margin: -1px;
 }
+::-webkit-scrollbar {
+    width: 15px; 
+}
+::-webkit-scrollbar-track {
+    background: #000000; /* Cor do fundo da trilha da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff; /* Cor da barra de rolagem */
+}
