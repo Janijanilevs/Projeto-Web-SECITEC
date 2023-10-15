@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#mostra{
+    background-color: black;
+}
+
+#mostra main{
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    padding-bottom: 40px;
+}
+.nome-lista{
+    color: #ECBF15;
+    text-align: center;
+    font-family: Irish Grover;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+.part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.mostrar-lista{
+    background: #ECBF15;
+    width: 730px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 13px;
+}
+.mostrar-lista ul{
+    list-style: none;
+}
+.part2{  
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cena-de-crime{
+    width: 480px;
+    height: 550px;
+    padding: 40px;
+}
+.cena-de-crime img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ECBF15;
+    border-radius: 13px;
+}
+
+#mostra footer{
+    background: #FFF;
+    width: 100%;
+    min-height: 25vh;
+}
