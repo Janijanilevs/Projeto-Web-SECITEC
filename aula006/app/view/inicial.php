@@ -45,11 +45,18 @@
             </form>
         </main>
         <footer>
-            <div>
-                <img href="imagens/placa.jpg">
-                <a href="/PROJETO-WEB-SECITEC/aula006/app/view/mostra.php"><img src=""><h2>ACESSE O <b>LIVRO</b> DE VISITAS</h2></a> 
-                <h3> <b>DOSCENTE:</b> THIAGO MIRANDA</h3>
-                <h3> 2° Ano <b>Vesp</b> INF</h3>
+            <div class="roda-1">
+                <img src="imagens/f1.jpeg">
+                <div>
+                    <div class="link">
+                        <img src="imagens/livro.jpeg">
+                        <a href="/PROJETO-WEB-SECITEC/aula006/app/view/mostra.php"><img src=""><h2 class="info-roda">ACESSE O <b>LIVRO</b> DE VISITAS</h2></a>
+                    </div>
+                    <h3 class="info-roda"> <b>DOSCENTE:</b> THIAGO MIRANDA</h3>
+                </div> 
+            </div>
+            <div class="roda-2">
+                <h3 class="info-roda"> 2° Ano <b>Vesp</b> INF</h3>
                 <img src="imagens/faixa-removebg-preview 1.png">
             </div> 
         </footer>
