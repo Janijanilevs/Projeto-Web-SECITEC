@@ -24,6 +24,15 @@
         <img src="imagens/danger 2.png" >
         <img src="imagens/danger 2.png" >
         <img src="imagens/danger 2.png" >
+        <img src="imagens/danger 2.png" >
+        <img src="imagens/danger 2.png" >
+        <img src="imagens/danger 2.png" >
+        <img src="imagens/danger 2.png" >
+        <img src="imagens/danger 2.png" >
+        <img src="imagens/danger 2.png" >
+        <img src="imagens/danger 2.png" >
+        <img src="imagens/danger 2.png" >
+        <img src="imagens/danger 2.png" >
     </div>
     <main>
         <form method="post" action="salvar">

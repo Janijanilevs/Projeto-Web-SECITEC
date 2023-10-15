@@ -4,7 +4,8 @@
         padding: 0;
     }
     body{
-        height: 100%;
+        overflow: hidden;
+        width: 100%;
     }
     header{
         background-color: black;
@@ -61,7 +62,8 @@
         font-size: 1.1rem;
         width: 9rem;
         height: 40px;
-        margin: 15px auto;
+        margin-top: 15px;
+        margin-left: 70%;
     }
     footer{
         background-color: white;
@@ -81,13 +83,19 @@
         justify-content: flex-start;
         text-align: right;
     }
-     a{
+    a{
         color: black;
         text-decoration: none;
     }
+    a h2 b{
+        color: #F0C82F;
+    }
     body .danger{
-        width: 100%;
+        max-width: 100%;
         display: flex;
         padding-top:1%;
         padding-bottom: 1%;
+    }
+    body .danger img{
+        margin: -1px;
     }
