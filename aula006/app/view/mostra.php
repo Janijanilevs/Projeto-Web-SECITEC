@@ -71,13 +71,31 @@
             </div>
         </div>
         <div class="part2">
-            <div class="cena-de-crime"><img src="../../imagens/cenaCrime 1.png"></div>
+            <div class="cena-de-crime"><img src="../../imagens/cenadecrime.png"></div>
         </div>
     </main>
 
     <footer>
-        <div class="infor"></div>
-        <div class="img"></div>
+
+        <div class="infor">
+            <div class="logo"><img src="../../imagens/fotoFinal.png"></div>
+            <div class="redes-sociais">
+                <div class="redes">
+                    <div class="logo-redes"><img src="../../imagens/professor.png"></div><p>PROFESSOR ORIENTADOR THIAGO MIRANDA </p>
+                </div>
+                <div class="redes">
+                    <div class="logo-redes"><img src="../../imagens/classe.png"></div><p>2° ANO VESPERTINO INFORMÁTICA</p>
+                </div>
+                <div class="redes">
+                    <div class="logo-redes"><img src="../../imagens/instagram.png"></div><p>@_LISTANEGRA.IFBA</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="img-footer">
+            <img src="../../imagens/faixa-removebg.png">
+        </div>
+
     </footer>
 
 </body>
