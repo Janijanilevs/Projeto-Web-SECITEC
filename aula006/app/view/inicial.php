@@ -32,6 +32,18 @@
         label{
             font-family: 'League Gothic';
             color: white;
+            font-size: 40px;
+            
+        }
+        form input{
+            background-color: black;
+            padding: 20px;
+            width: 65%;
+            height: 10px;
+            border: yellow 1px solid;
+            border-radius: 10px;
+            outline: unset;
+            margin-bottom: 10px;
         }
     </style>
     <title>Visitas - 2º Vespertino</title>
