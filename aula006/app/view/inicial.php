@@ -47,7 +47,7 @@
         <div>
             <img href="imagens/placa.jpg">
             <a href="/PROJETO-WEB-SECITEC/aula006/app/view/mostra.php"><img src=""><h2>ACESSE O <b>LIVRO</b> DE VISITAS</h2></a> 
-            <h3> <b>DOSCENTE:</b> THIAGO MIRANDA</h3>
+            <h3> <b>DOSCENTE:</b> THIAGO MIRANDA Vasco >>></h3>
             <h3> 2° Ano <b>Vesp</b> INF</h3>
             <img src="imagens/faixa-removebg-preview 1.png">
         </div> 
