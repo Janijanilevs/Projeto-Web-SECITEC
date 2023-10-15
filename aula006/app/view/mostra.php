@@ -7,6 +7,7 @@
     <link href="../../estilo2.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Irish Grover' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
     <title>Visitas - 2º Vespertino</title>
 </head>
 <body id="mostra">
@@ -81,10 +82,10 @@
             <div class="logo"><img src="../../imagens/fotoFinal.png"></div>
             <div class="redes-sociais">
                 <div class="redes">
-                    <div class="logo-redes"><img src="../../imagens/professor.png"></div><p>PROFESSOR ORIENTADOR THIAGO MIRANDA </p>
+                    <div class="logo-redes"><img src="../../imagens/professor.png"></div><p>PROFESSOR ORIENTADOR <b>THIAGO MIRANDA</b> </p>
                 </div>
                 <div class="redes">
-                    <div class="logo-redes"><img src="../../imagens/classe.png"></div><p>2° ANO VESPERTINO INFORMÁTICA</p>
+                    <div class="logo-redes"><img src="../../imagens/classe.png"></div><p>2° ANO VESPERTINO <b>INFORMÁTICA</b></p>
                 </div>
                 <div class="redes">
                     <div class="logo-redes"><img src="../../imagens/instagram.png"></div><p>@_LISTANEGRA.IFBA</p>
