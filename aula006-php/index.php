@@ -2,27 +2,35 @@
 
 require "./vendor/autoload.php";
 
+require "./config.php";
+require "./util.php";
+
 #https://dontpad.com/php-config
 #Crie um arquivo na pasta aula006 chamado .htaccess
 #Copie o codigo para este arquivo
 
 $url = $_GET["url"] ?? "/";
 
+use \Ifba\Visitas\controller\VisitaController;
+use \Ifba\Visitas\controller\ErroController;
+
+
 switch ($url) {
     case "/":
-        $controlador = new \Ifba\Visitas\controller\VisitaController();
+        $controlador = new VisitaController();
         $controlador->index();
     break;
     case "mostra":
-        $controlador = new \Ifba\Visitas\controller\VisitaController();
+        $controlador = new VisitaController();
         $controlador->mostraVisitas();
     break;
     case "salvar":
-        $controlador = new \Ifba\Visitas\controller\VisitaController();
+        $controlador = new VisitaController();
         $controlador->salvar();
     break;
     default:
-        echo "<h2>Página não encontrada</h2>";
+        $controlador = new ErroController();
+        $controlador->erro404();
     break;
 }
 

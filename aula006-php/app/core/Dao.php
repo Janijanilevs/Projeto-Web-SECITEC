@@ -21,5 +21,6 @@ abstract class Dao{
         
     }
     #Este metodo é apenas uma assinatura e todas as calsses que herdarem desta são obrigados a criar um metodo inserir.
-    public abstract function inserir ($model);
+    public abstract function inserir ($model):bool;
+    public abstract function buscarTodos():array;
 }

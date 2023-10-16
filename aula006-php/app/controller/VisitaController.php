@@ -2,25 +2,38 @@
 
 namespace Ifba\Visitas\controller;
 
+use \Ifba\Visitas\model\entidades\Visitante;
+use \Ifba\Visitas\model\BD\VisitanteDao;
 class VisitaController{
     
     public function index()
     {
-        require "./app/view/inicial.php";
+        $dados = [
+            'titulo' => "Livro de Visitas - 2º ano Verpertino"
+        ];
+        view("inicial",$dados);
     }
 
     public function mostraVisitas()
     {
-        require "./app/view/mostra.php";
+        $dao = new VisitanteDao();
+        $visitantes = $dao->buscarTodos();
+        var_dump($visitantes);
+        die;
+        $dados = [
+            'titulo' => "Livro de Visitas - 2º ano Verpertino",
+            'visitantes' => $visitantes
+        ];
+        view("mostra",$dados);
     }
 
     public function salvar()
     {
-        $visitante = new \Ifba\Visitas\model\Visitante;
+        $visitante = new Visitante;
         $visitante->setNome($_POST["nome"] ?? "");
         $visitante->setData();
 
-        $dao = new \Ifba\Visitas\model\VisitanteDao();
+        $dao = new VisitanteDao();
         $dao->inserir($visitante);
     }
 

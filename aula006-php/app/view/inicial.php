@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
 
     
-    <title>Visitas - 2º Vespertino</title>
+    <title><?=$titulo?></title>
 </head>
 <body>
     <div id="pagina">
@@ -50,7 +50,7 @@
                 <div>
                     <div class="link">
                         <img src="imagens/livro.jpeg">
-                        <a href="/PROJETO-WEB-SECITEC-2/aula006/app/view/mostra.php"><img src=""><h2 class="info-roda">ACESSE O <b>LIVRO</b> DE VISITAS</h2></a>
+                        <a href="/PROJETO-WEB-SECITEC/aula006-php/app/view/mostra.php"><img src=""><h2 class="info-roda">ACESSE O <b>LIVRO</b> DE VISITAS</h2></a>
                     </div>
                     <h3 class="info-roda"> <b>DOSCENTE:</b> THIAGO MIRANDA</h3>
                 </div> 

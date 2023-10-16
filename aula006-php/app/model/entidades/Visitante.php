@@ -1,6 +1,6 @@
 <?php
 
-namespace Ifba\Visitas\model;
+namespace Ifba\Visitas\model\entidades;
 
 class Visitante{
     protected int $id;

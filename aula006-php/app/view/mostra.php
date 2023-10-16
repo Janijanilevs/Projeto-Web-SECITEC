@@ -8,7 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Irish Grover' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
-    <title>Visitas - 2º Vespertino</title>
+    <title><?=$titulo?></title>
 </head>
 <body id="mostra">
 
@@ -20,54 +20,9 @@
             </div>
             <div class="mostrar-lista">
                 <ul>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
-                    <li>03/10/22023 - 09:45 - João Da Silva</li>
+                    <?php foreach($visitantes as $visitante){ ?>
+                        <li><?=$visitante->getData()?> - <?=$visitante->getNome()?></li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
