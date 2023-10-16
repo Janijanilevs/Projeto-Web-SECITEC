@@ -3,6 +3,8 @@
 #DAO -> Data Acess Object -> Objeto de Acesso aos dados
 
 namespace Ifba\Visitas\model\BD;
+use \Ifba\Visitas\model\entidades\Visitante;
+
 
 class VisitanteDao extends \Ifba\Visitas\core\Dao{
     public function inserir($model):bool

@@ -18,8 +18,6 @@ class VisitaController{
     {
         $dao = new VisitanteDao();
         $visitantes = $dao->buscarTodos();
-        var_dump($visitantes);
-        die;
         $dados = [
             'titulo' => "Livro de Visitas - 2º ano Verpertino",
             'visitantes' => $visitantes
