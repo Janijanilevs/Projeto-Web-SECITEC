@@ -31,8 +31,21 @@ class VisitaController{
         $visitante->setNome($_POST["nome"] ?? "");
         $visitante->setData();
 
-        $dao = new VisitanteDao();
-        $dao->inserir($visitante);
-    }
+        if($visitante->valida()){
+            $dao = new VisitanteDao;
+            if($dao->inserir($visitante)){
+                $msg = 1;
+            }
+            else{
+                $msg = 0;
+            }
+        }else{
+            $msg = -1;
+        }
+        $dados['titulo'] = "Livro de Visitas - 2º ano Verpertino";
+        $dados['msg'] = $msg;
+        view("salvar", $dados);
 
+        
+    }
 }

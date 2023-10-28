@@ -37,7 +37,17 @@
             <div class="logo"><img src="imagens/fotoFinal.png"></div>
             <div class="redes-sociais">
                 <div class="redes">
-                    <div class="logo-redes"><img src="imagens/professor.png"></div><p>PROFESSOR ORIENTADOR <b>THIAGO MIRANDA</b> </p>
+                    <div class="voltar">
+                        <a href="index.php">
+                            <img src="imagens/diquete.png">
+                                <p> VOLTAR PARA A <b>PÁGINA INICIAL</b> </p>
+                            </a>
+                    </div>
+                </div>
+                <div class="redes">
+                    <div class="logo-redes">
+                        <img src="imagens/professor.png">
+                            </div><p>PROFESSOR ORIENTADOR <b>THIAGO MIRANDA</b> </p>
                 </div>
                 <div class="redes">
                     <div class="logo-redes"><img src="imagens/classe.png"></div><p>2° ANO VESPERTINO <b>INFORMÁTICA</b></p>

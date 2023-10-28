@@ -147,3 +147,33 @@
     width: 60%;
 }
 
+.voltar{
+    display: flex;
+}
+.voltar img{
+    width: 17%;
+    display: flex;
+}
+.voltar a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: -2%;
+}
+.voltar p{
+    color: #000;
+    font-family: League Gothic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.voltar b{
+    color: #ECBF15;
+    font-family: League Gothic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
